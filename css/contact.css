@@ -21,32 +21,36 @@
 }
 
 .footer-top h2 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     margin-bottom: 5px;
 }
 
 .footer-top p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
-.footer-top button {
+.footer-top a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     width: 200px;
     padding: 10px;
     border-radius: 50px;
 
     font-size: 20px;
+    text-decoration: none;
     cursor: pointer;
     margin-top: 20px;
+
+    background-color: aliceblue;
+    color: black;
 }
 
-.footer-top button:hover {
+.footer-top a:hover {
     background-color: white;
 }
 
@@ -92,10 +96,6 @@
 .right-section img {
     width: 30px;
     filter: brightness(0) invert(1);
-}
-
-.you{
-    color: blueviolet;
 }
 
 @media(max-width: 540px) {
