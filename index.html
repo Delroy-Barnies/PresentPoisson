@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/sidebar.css">
 </head>
 
 <body>
@@ -27,16 +28,34 @@
         <section id="navbar">
             <navbar>
                 <div class="logo">
-                    <li><a href="#header"><img src="images/MiniPresentPoissonLogo.svg"></a></li>
+                    <a href="#header"><img src="images/MiniPresentPoissonLogo.svg"></a>
                 </div>
-                <div>
-                    <li><a class="navItems" href="#header">Packages</a></li>
+
+                <ul>
                     <li><a class="navItems" href="#about">About</a></li>
                     <li><a class="navItems" href="#offer">Services</a></li>
+                    <li><a class="navItems" href="#packages">Packages</a></li>
                     <li><a class="navItems" href="#contact">Contact Us</a></li>
-                </div>
+                </ul>
             </navbar>
         </section>
+
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li>Present Poisson <span>Marketing Agency</span></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offer">Services</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
 
         <section id="header">
             <img src="images/PresentPoissonLogo.svg">
@@ -62,13 +81,14 @@
 
         <section id="team">
             <div>
+                <h2>Our Team</h2>
                 <p>Our team is made up of our IT specialist, programmer, marketing specialist, sales spokesperson and
                     the
                     latest technology that assits us when assisting our clients.
                 </p>
             </div>
             <div>
-                <h2>Our Team</h2><img src="images/startup-594090_1920.jpg">
+                <img src="images/startup-594090_1920.jpg">
             </div>
         </section>
 
@@ -133,6 +153,97 @@
                         pause/playing the background video. Also used spring boot for
                         the contact us section in which the user can send an email to the service provider
                         through the webpage.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="packages">
+            <h2 class="packages-heading">Packages</h2>
+            <div class="packages-tab">
+                <div class="packages-cell">
+                    <div class="standard banner">
+                        <h2>STANDARD</h2>
+                    </div>
+                    <h3>R2000 <span class="monthly"> *monthly</span></h3>
+                    <div class="packages-divider">
+                        <div class="img-section"><img
+                                src="images/2142569_circle_colored_gradient_instagram_media_icon.svg">
+                            <img src="images/7632710_video_promotion_advertising_marketing_icon.svg">
+                        </div>
+                        <div class="details-section">
+                            <ul>
+                                <li>
+                                    <h4>Social Media</h4>
+                                </li>
+                                <li>Social accounts activations</li>
+                                <li>(facebook, whatsapp business, instagram)</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Visuals/Branding</h4>
+                                </li>
+                                <li>Logo design</li>
+                                <li>Billboard</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Digital</h4>
+                                </li>
+                                <li>Flyers</li>
+                                <li>Business cards</li>
+                                <li>Posters</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="packages-cell">
+                    <div class="premium banner">
+                        <h2>PREMIUM</h2>
+                    </div>
+                    <h3>R5000 <span class="monthly"> *monthly</span></h3>
+                    <div class="packages-divider">
+                        <div class="img-section"><img src="images/4550886_check_computer_result_website_icon.svg">
+                            <img src="images/9967681_woman_call_center_all enter_support_icon.svg">
+                            <img src="images/9802747_support_sales_discount_offer_icon.svg">
+                            <img src="images/2142569_circle_colored_gradient_instagram_media_icon.svg">
+                            <img src="images/7632710_video_promotion_advertising_marketing_icon.svg">
+                        </div>
+                        <div class="details-section">
+                            <ul>
+                                <li>
+                                    <h4>Social Media Management</h4>
+                                </li>
+                                <li>Weekly posts</li>
+                                <li>Weekly adverts</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Website Management</h4>
+                                </li>
+                                <li>Web design</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Monthly Event Planning</h4>
+                                </li>
+                                <li>Grand openings</li>
+                                <li>Exposure shows</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Visuals/Branding</h4>
+                                </li>
+                                <li>Packages</li>
+                                <li>Banners</li>
+                                <li>Promotions</li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h4>Customer Relationship management</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
