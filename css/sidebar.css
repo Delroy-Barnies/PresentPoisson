@@ -6,9 +6,10 @@
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     border-radius: 25px;
+    padding-bottom: 8px;
     /*background: linear-gradient(180deg, #000000 0%, #002aff 100%);*/
 
-    background-color: rgba(128, 0, 128, 0.958);
+    background-color: rgba(170, 0, 170, 0.958);
     backdrop-filter: blur(8px);
     font-family: 'Roboto', sans-serif;
     z-index: 12;
